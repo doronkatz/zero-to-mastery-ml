@@ -1,9 +1,0 @@
-Name: libecpg
-Description: PostgreSQL libecpg library
-Url: http://www.postgresql.org/
-Version: 12.17
-Requires: 
-Requires.private: libpq libpgtypes
-Cflags: -I/Users/doronkatz/Development/Zero_to_Mastery/sample_project/.env/include
-Libs: -L/Users/doronkatz/Development/Zero_to_Mastery/sample_project/.env/lib -lecpg
-Libs.private: -L/Users/doronkatz/Development/Zero_to_Mastery/sample_project/.env/lib -lpgcommon -lpgport -lm
