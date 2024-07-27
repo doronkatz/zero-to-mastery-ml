@@ -179,3 +179,13 @@
 +defaults/osx-arm64::zlib-1.2.13-h18a0788_1
 +defaults/osx-arm64::zstd-1.5.5-hd90d995_2
 # update specs: ['jupyter', 'matplotlib', 'numpy', 'pandas', 'scikit-learn']
+==> 2024-07-26 20:59:05 <==
+# cmd: /Users/doronkatz/miniconda3/bin/conda install numpy
+# conda version: 24.7.1
+-defaults/osx-arm64::ca-certificates-2024.3.11-hca03da5_0
+-defaults/osx-arm64::certifi-2024.6.2-py312hca03da5_0
+-defaults/osx-arm64::openssl-3.0.13-h1a28f6b_2
++defaults/osx-arm64::ca-certificates-2024.7.2-hca03da5_0
++defaults/osx-arm64::certifi-2024.7.4-py312hca03da5_0
++defaults/osx-arm64::openssl-3.0.14-h80987f9_0
+# update specs: ['numpy']
