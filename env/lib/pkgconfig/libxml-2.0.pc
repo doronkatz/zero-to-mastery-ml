@@ -1,0 +1,13 @@
+prefix=/Users/doronkatz/Development/Zero_to_Mastery/sample_project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.10.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/doronkatz/Development/Zero_to_Mastery/sample_project/env/lib -lz -L/Users/doronkatz/Development/Zero_to_Mastery/sample_project/env/lib -llzma -lpthread -L/Users/doronkatz/Development/Zero_to_Mastery/sample_project/env/lib -liconv -L/Users/doronkatz/Development/Zero_to_Mastery/sample_project/env/lib -licui18n -licuuc -licudata   
+Cflags: -I${includedir}/libxml2 -I/Users/doronkatz/Development/Zero_to_Mastery/sample_project/env/include 
