@@ -1,2 +1,4 @@
 .env/*
 .env
+.trunk
+images/sample-plot.png
