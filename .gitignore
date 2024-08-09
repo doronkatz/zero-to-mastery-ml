@@ -2,3 +2,4 @@
 .env
 .trunk
 images/sample-plot.png
+.DS_STORE
